@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="lab3_oop.AddView"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="AddView"
+    BackgroundColor="DarkBlue">
+    <ScrollView>
+
+        <StackLayout Padding="10" Spacing="20">
+            <Label
+                Margin="0,0,0,20"
+                FontAttributes="Bold"
+                FontSize="Title"
+                HorizontalOptions="Center"
+                Text="New Lesson Creation"
+                TextColor="Snow"/>
+            <HorizontalStackLayout>
+
+                <Label Text="Day:" TextColor="Wheat" Margin="0,0,0,10" />
+
+                <Entry
+                Margin="0,0,0,10"
+                Placeholder="Enter study day"
+                Text="{Binding Day}" 
+                TextColor="White"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Time:" TextColor="Wheat" Margin="0,0,0,10" />
+
+                <Entry
+                Margin="0,0,0,10"
+                Placeholder="Enter time"
+                Text="{Binding Time}"
+                TextColor="White"
+                />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Discipline:" TextColor="Wheat" Margin="0,0,0,10" />
+
+                <Entry
+                Margin="0,0,0,10"
+                Placeholder="Enter discipline's name"
+                Text="{Binding Discipline}"
+                TextColor="White"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Teacher:" TextColor="Wheat"  Margin="0,0,0,10"/>
+
+                <Entry
+                Margin="0,0,0,10"
+                Placeholder="Enter teacher's name"
+                Text="{Binding Teacher}"
+                TextColor="White"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+
+                <Label Text="Faculty:" TextColor="Wheat" Margin="0,0,0,10" />
+
+                <Entry
+                Margin="0,0,0,10"
+                Placeholder="Enter faculty"
+                Text="{Binding Faculty}" 
+                TextColor="White"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Audience:"  TextColor="Wheat" Margin="0,0,0,10" />
+
+                <Entry
+                Margin="0,0,0,10"
+                Placeholder="Enter audience number"
+                TextColor="White"
+                Text="{Binding Audience}" />
+            </HorizontalStackLayout>
+
+            <Button
+                Margin="0,20,0,0"
+                Clicked="SubmitClicked"
+                HorizontalOptions="End"
+                Text="Submit"
+                VerticalOptions="End"
+                WidthRequest="100" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

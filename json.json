@@ -1,0 +1,29 @@
+﻿[
+  {
+    "IsSelected": false,
+    "Discipline": "Physics",
+    "Teacher": "Ivan Ivanovich Ivanov",
+    "Audience": 302,
+    "Faculty": "Physical Faculty",
+    "Time": "8:50",
+    "Day": "Tuesday"
+  },
+  {
+    "IsSelected": false,
+    "Discipline": "History",
+    "Teacher": "Svitlana Svitlanivna",
+    "Audience": 207,
+    "Faculty": "History",
+    "Time": "11:00",
+    "Day": "Tuesday"
+  },
+  {
+    "IsSelected": false,
+    "Discipline": "Computer Science",
+    "Teacher": "Andriy Andriyovich",
+    "Audience": 404,
+    "Faculty": "Computer Science",
+    "Time": "14:00",
+    "Day": "Thursday"
+  }
+]
